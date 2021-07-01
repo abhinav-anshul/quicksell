@@ -23,8 +23,9 @@ button {
 }
 input {
   all: unset;
-  width: 56px;
-  height: 60px;
+  width: 57px;
+  height: 58px;
+  border-left: 1px solid #b24242;
   text-align: center;
 }
 
@@ -46,11 +47,13 @@ input[type="number"] {
   align-items: center;
   place-items: center;
   background-color: #fbe8e8;
+  color: #b24242;
 }
 
 .btnDe {
   background-color: white;
   border-radius: 10px 0px 0px 10px;
+  color: #b24242;
 }
 
 .btnIn {
