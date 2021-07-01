@@ -16,7 +16,7 @@ function App() {
           <input
             type='number'
             value={count}
-            onChange={(e) => setCount(e.target.value)}
+            onChange={(e) => setCount(+e.target.value)}
             className='countInput'
           />
         </div>

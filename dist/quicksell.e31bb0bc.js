@@ -29687,7 +29687,7 @@ function App() {
     type: "number",
     value: count,
     onChange: function onChange(e) {
-      return setCount(e.target.value);
+      return setCount(+e.target.value);
     },
     className: "countInput"
   })), /*#__PURE__*/_react.default.createElement("button", {
